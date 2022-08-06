@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07678B71289EFBBA007EDDCE /* ContadorPassosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07678B70289EFBBA007EDDCE /* ContadorPassosApp.swift */; };
+		07678B73289EFBBA007EDDCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07678B72289EFBBA007EDDCE /* ContentView.swift */; };
+		07678B75289EFBBF007EDDCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07678B74289EFBBF007EDDCE /* Assets.xcassets */; };
+		07678B78289EFBBF007EDDCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07678B77289EFBBF007EDDCE /* Preview Assets.xcassets */; };
+		07678B82289EFBBF007EDDCE /* ContadorPassosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07678B81289EFBBF007EDDCE /* ContadorPassosTests.swift */; };
+		07678B8C289EFBBF007EDDCE /* ContadorPassosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07678B8B289EFBBF007EDDCE /* ContadorPassosUITests.swift */; };
+		07678B8E289EFBBF007EDDCE /* ContadorPassosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07678B8D289EFBBF007EDDCE /* ContadorPassosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07678B7E289EFBBF007EDDCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07678B65289EFBBA007EDDCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07678B6C289EFBBA007EDDCE;
+			remoteInfo = ContadorPassos;
+		};
+		07678B88289EFBBF007EDDCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07678B65289EFBBA007EDDCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07678B6C289EFBBA007EDDCE;
+			remoteInfo = ContadorPassos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07678B6D289EFBBA007EDDCE /* ContadorPassos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContadorPassos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07678B70289EFBBA007EDDCE /* ContadorPassosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorPassosApp.swift; sourceTree = "<group>"; };
+		07678B72289EFBBA007EDDCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		07678B74289EFBBF007EDDCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07678B77289EFBBF007EDDCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07678B7D289EFBBF007EDDCE /* ContadorPassosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContadorPassosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07678B81289EFBBF007EDDCE /* ContadorPassosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorPassosTests.swift; sourceTree = "<group>"; };
+		07678B87289EFBBF007EDDCE /* ContadorPassosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContadorPassosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07678B8B289EFBBF007EDDCE /* ContadorPassosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorPassosUITests.swift; sourceTree = "<group>"; };
+		07678B8D289EFBBF007EDDCE /* ContadorPassosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorPassosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07678B6A289EFBBA007EDDCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07678B7A289EFBBF007EDDCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07678B84289EFBBF007EDDCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07678B64289EFBBA007EDDCE = {
+			isa = PBXGroup;
+			children = (
+				07678B6F289EFBBA007EDDCE /* ContadorPassos */,
+				07678B80289EFBBF007EDDCE /* ContadorPassosTests */,
+				07678B8A289EFBBF007EDDCE /* ContadorPassosUITests */,
+				07678B6E289EFBBA007EDDCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07678B6E289EFBBA007EDDCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07678B6D289EFBBA007EDDCE /* ContadorPassos.app */,
+				07678B7D289EFBBF007EDDCE /* ContadorPassosTests.xctest */,
+				07678B87289EFBBF007EDDCE /* ContadorPassosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07678B6F289EFBBA007EDDCE /* ContadorPassos */ = {
+			isa = PBXGroup;
+			children = (
+				07678B70289EFBBA007EDDCE /* ContadorPassosApp.swift */,
+				07678B72289EFBBA007EDDCE /* ContentView.swift */,
+				07678B74289EFBBF007EDDCE /* Assets.xcassets */,
+				07678B76289EFBBF007EDDCE /* Preview Content */,
+			);
+			path = ContadorPassos;
+			sourceTree = "<group>";
+		};
+		07678B76289EFBBF007EDDCE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				07678B77289EFBBF007EDDCE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07678B80289EFBBF007EDDCE /* ContadorPassosTests */ = {
+			isa = PBXGroup;
+			children = (
+				07678B81289EFBBF007EDDCE /* ContadorPassosTests.swift */,
+			);
+			path = ContadorPassosTests;
+			sourceTree = "<group>";
+		};
+		07678B8A289EFBBF007EDDCE /* ContadorPassosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07678B8B289EFBBF007EDDCE /* ContadorPassosUITests.swift */,
+				07678B8D289EFBBF007EDDCE /* ContadorPassosUITestsLaunchTests.swift */,
+			);
+			path = ContadorPassosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07678B6C289EFBBA007EDDCE /* ContadorPassos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07678B91289EFBBF007EDDCE /* Build configuration list for PBXNativeTarget "ContadorPassos" */;
+			buildPhases = (
+				07678B69289EFBBA007EDDCE /* Sources */,
+				07678B6A289EFBBA007EDDCE /* Frameworks */,
+				07678B6B289EFBBA007EDDCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContadorPassos;
+			productName = ContadorPassos;
+			productReference = 07678B6D289EFBBA007EDDCE /* ContadorPassos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07678B7C289EFBBF007EDDCE /* ContadorPassosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07678B94289EFBBF007EDDCE /* Build configuration list for PBXNativeTarget "ContadorPassosTests" */;
+			buildPhases = (
+				07678B79289EFBBF007EDDCE /* Sources */,
+				07678B7A289EFBBF007EDDCE /* Frameworks */,
+				07678B7B289EFBBF007EDDCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07678B7F289EFBBF007EDDCE /* PBXTargetDependency */,
+			);
+			name = ContadorPassosTests;
+			productName = ContadorPassosTests;
+			productReference = 07678B7D289EFBBF007EDDCE /* ContadorPassosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07678B86289EFBBF007EDDCE /* ContadorPassosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07678B97289EFBBF007EDDCE /* Build configuration list for PBXNativeTarget "ContadorPassosUITests" */;
+			buildPhases = (
+				07678B83289EFBBF007EDDCE /* Sources */,
+				07678B84289EFBBF007EDDCE /* Frameworks */,
+				07678B85289EFBBF007EDDCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07678B89289EFBBF007EDDCE /* PBXTargetDependency */,
+			);
+			name = ContadorPassosUITests;
+			productName = ContadorPassosUITests;
+			productReference = 07678B87289EFBBF007EDDCE /* ContadorPassosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07678B65289EFBBA007EDDCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					07678B6C289EFBBA007EDDCE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					07678B7C289EFBBF007EDDCE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 07678B6C289EFBBA007EDDCE;
+					};
+					07678B86289EFBBF007EDDCE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 07678B6C289EFBBA007EDDCE;
+					};
+				};
+			};
+			buildConfigurationList = 07678B68289EFBBA007EDDCE /* Build configuration list for PBXProject "ContadorPassos" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07678B64289EFBBA007EDDCE;
+			productRefGroup = 07678B6E289EFBBA007EDDCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07678B6C289EFBBA007EDDCE /* ContadorPassos */,
+				07678B7C289EFBBF007EDDCE /* ContadorPassosTests */,
+				07678B86289EFBBF007EDDCE /* ContadorPassosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07678B6B289EFBBA007EDDCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07678B78289EFBBF007EDDCE /* Preview Assets.xcassets in Resources */,
+				07678B75289EFBBF007EDDCE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07678B7B289EFBBF007EDDCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07678B85289EFBBF007EDDCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07678B69289EFBBA007EDDCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07678B73289EFBBA007EDDCE /* ContentView.swift in Sources */,
+				07678B71289EFBBA007EDDCE /* ContadorPassosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07678B79289EFBBF007EDDCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07678B82289EFBBF007EDDCE /* ContadorPassosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07678B83289EFBBF007EDDCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07678B8C289EFBBF007EDDCE /* ContadorPassosUITests.swift in Sources */,
+				07678B8E289EFBBF007EDDCE /* ContadorPassosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07678B7F289EFBBF007EDDCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07678B6C289EFBBA007EDDCE /* ContadorPassos */;
+			targetProxy = 07678B7E289EFBBF007EDDCE /* PBXContainerItemProxy */;
+		};
+		07678B89289EFBBF007EDDCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07678B6C289EFBBA007EDDCE /* ContadorPassos */;
+			targetProxy = 07678B88289EFBBF007EDDCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07678B8F289EFBBF007EDDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07678B90289EFBBF007EDDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07678B92289EFBBF007EDDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ContadorPassos/Preview Content\"";
+				DEVELOPMENT_TEAM = SXY739TBJP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Diego.ContadorPassos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07678B93289EFBBF007EDDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ContadorPassos/Preview Content\"";
+				DEVELOPMENT_TEAM = SXY739TBJP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Diego.ContadorPassos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07678B95289EFBBF007EDDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SXY739TBJP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Diego.ContadorPassosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContadorPassos.app/ContadorPassos";
+			};
+			name = Debug;
+		};
+		07678B96289EFBBF007EDDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SXY739TBJP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Diego.ContadorPassosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContadorPassos.app/ContadorPassos";
+			};
+			name = Release;
+		};
+		07678B98289EFBBF007EDDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SXY739TBJP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Diego.ContadorPassosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ContadorPassos;
+			};
+			name = Debug;
+		};
+		07678B99289EFBBF007EDDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SXY739TBJP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Diego.ContadorPassosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ContadorPassos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07678B68289EFBBA007EDDCE /* Build configuration list for PBXProject "ContadorPassos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07678B8F289EFBBF007EDDCE /* Debug */,
+				07678B90289EFBBF007EDDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07678B91289EFBBF007EDDCE /* Build configuration list for PBXNativeTarget "ContadorPassos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07678B92289EFBBF007EDDCE /* Debug */,
+				07678B93289EFBBF007EDDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07678B94289EFBBF007EDDCE /* Build configuration list for PBXNativeTarget "ContadorPassosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07678B95289EFBBF007EDDCE /* Debug */,
+				07678B96289EFBBF007EDDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07678B97289EFBBF007EDDCE /* Build configuration list for PBXNativeTarget "ContadorPassosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07678B98289EFBBF007EDDCE /* Debug */,
+				07678B99289EFBBF007EDDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07678B65289EFBBA007EDDCE /* Project object */;
+}
