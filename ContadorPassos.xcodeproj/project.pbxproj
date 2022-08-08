@@ -14,8 +14,6 @@
 		07678B82289EFBBF007EDDCE /* ContadorPassosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07678B81289EFBBF007EDDCE /* ContadorPassosTests.swift */; };
 		07678B8C289EFBBF007EDDCE /* ContadorPassosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07678B8B289EFBBF007EDDCE /* ContadorPassosUITests.swift */; };
 		07678B8E289EFBBF007EDDCE /* ContadorPassosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07678B8D289EFBBF007EDDCE /* ContadorPassosUITestsLaunchTests.swift */; };
-		07678B9D289EFC0F007EDDCE /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07678B9C289EFC0F007EDDCE /* HealthKit.framework */; };
-		07678B9F289EFC2E007EDDCE /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07678B9E289EFC2E007EDDCE /* ViewModel.swift */; };
 		07678BA5289F1145007EDDCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07678BA4289F1145007EDDCE /* Assets.xcassets */; };
 		07678BAB289F1146007EDDCE /* ContadorPassosWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 07678BAA289F1146007EDDCE /* ContadorPassosWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		07678BB0289F1146007EDDCE /* ContadorPassosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07678BAF289F1146007EDDCE /* ContadorPassosApp.swift */; };
@@ -29,6 +27,10 @@
 		07678BD3289F1147007EDDCE /* ContadorPassosWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07678BD2289F1147007EDDCE /* ContadorPassosWatchUITests.swift */; };
 		07678BD5289F1147007EDDCE /* ContadorPassosWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07678BD4289F1147007EDDCE /* ContadorPassosWatchUITestsLaunchTests.swift */; };
 		07678BD8289F1147007EDDCE /* ContadorPassosWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 07678BA2289F1143007EDDCE /* ContadorPassosWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		077F33BB28A1914B0023360F /* PassosModule in Frameworks */ = {isa = PBXBuildFile; productRef = 077F33BA28A1914B0023360F /* PassosModule */; };
+		077F33BD28A1919C0023360F /* PassosModule in Frameworks */ = {isa = PBXBuildFile; productRef = 077F33BC28A1919C0023360F /* PassosModule */; };
+		077F33C028A191FF0023360F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077F33BF28A191FF0023360F /* HealthKit.framework */; };
+		077F33C128A199000023360F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07678B9C289EFC0F007EDDCE /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,7 +116,6 @@
 		07678B8D289EFBBF007EDDCE /* ContadorPassosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorPassosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		07678B9A289EFC0F007EDDCE /* ContadorPassos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ContadorPassos.entitlements; sourceTree = "<group>"; };
 		07678B9C289EFC0F007EDDCE /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
-		07678B9E289EFC2E007EDDCE /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		07678BA2289F1143007EDDCE /* ContadorPassosWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContadorPassosWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07678BA4289F1145007EDDCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07678BAA289F1146007EDDCE /* ContadorPassosWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ContadorPassosWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +133,10 @@
 		07678BCE289F1147007EDDCE /* ContadorPassosWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContadorPassosWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07678BD2289F1147007EDDCE /* ContadorPassosWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorPassosWatchUITests.swift; sourceTree = "<group>"; };
 		07678BD4289F1147007EDDCE /* ContadorPassosWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorPassosWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		077F33B928A18FD80023360F /* PassosModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PassosModule; path = ../../PassosModule; sourceTree = "<group>"; };
+		077F33BE28A191FF0023360F /* ContadorPassosWatch WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ContadorPassosWatch WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		077F33BF28A191FF0023360F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.5.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		077F33C428A19AEE0023360F /* ContadorPassosWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ContadorPassosWatch.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +144,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07678B9D289EFC0F007EDDCE /* HealthKit.framework in Frameworks */,
+				077F33BB28A1914B0023360F /* PassosModule in Frameworks */,
+				077F33C128A199000023360F /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +167,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077F33BD28A1919C0023360F /* PassosModule in Frameworks */,
+				077F33C028A191FF0023360F /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,9 +221,9 @@
 		07678B6F289EFBBA007EDDCE /* ContadorPassos */ = {
 			isa = PBXGroup;
 			children = (
+				077F33B928A18FD80023360F /* PassosModule */,
 				07678B9A289EFC0F007EDDCE /* ContadorPassos.entitlements */,
 				07678B70289EFBBA007EDDCE /* ContadorPassosApp.swift */,
-				07678B9E289EFC2E007EDDCE /* ViewModel.swift */,
 				07678B72289EFBBA007EDDCE /* ContentView.swift */,
 				07678B74289EFBBF007EDDCE /* Assets.xcassets */,
 				07678B76289EFBBF007EDDCE /* Preview Content */,
@@ -251,6 +259,7 @@
 		07678B9B289EFC0F007EDDCE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				077F33BF28A191FF0023360F /* HealthKit.framework */,
 				07678B9C289EFC0F007EDDCE /* HealthKit.framework */,
 			);
 			name = Frameworks;
@@ -259,6 +268,7 @@
 		07678BA3289F1143007EDDCE /* ContadorPassosWatch */ = {
 			isa = PBXGroup;
 			children = (
+				077F33C428A19AEE0023360F /* ContadorPassosWatch.entitlements */,
 				07678BA4289F1145007EDDCE /* Assets.xcassets */,
 			);
 			path = ContadorPassosWatch;
@@ -267,6 +277,7 @@
 		07678BAE289F1146007EDDCE /* ContadorPassosWatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				077F33BE28A191FF0023360F /* ContadorPassosWatch WatchKit Extension.entitlements */,
 				07678BAF289F1146007EDDCE /* ContadorPassosApp.swift */,
 				07678BB1289F1146007EDDCE /* ContentView.swift */,
 				07678BB3289F1146007EDDCE /* NotificationController.swift */,
@@ -323,6 +334,9 @@
 				07678BD7289F1147007EDDCE /* PBXTargetDependency */,
 			);
 			name = ContadorPassos;
+			packageProductDependencies = (
+				077F33BA28A1914B0023360F /* PassosModule */,
+			);
 			productName = ContadorPassos;
 			productReference = 07678B6D289EFBBA007EDDCE /* ContadorPassos.app */;
 			productType = "com.apple.product-type.application";
@@ -393,6 +407,9 @@
 			dependencies = (
 			);
 			name = "ContadorPassosWatch WatchKit Extension";
+			packageProductDependencies = (
+				077F33BC28A1919C0023360F /* PassosModule */,
+			);
 			productName = "ContadorPassosWatch WatchKit Extension";
 			productReference = 07678BAA289F1146007EDDCE /* ContadorPassosWatch WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
@@ -557,7 +574,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				07678B73289EFBBA007EDDCE /* ContentView.swift in Sources */,
-				07678B9F289EFC2E007EDDCE /* ViewModel.swift in Sources */,
 				07678B71289EFBBA007EDDCE /* ContadorPassosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -764,8 +780,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ContadorPassos/ContadorPassos.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"ContadorPassos/Preview Content\"";
 				DEVELOPMENT_TEAM = SXY739TBJP;
 				ENABLE_PREVIEWS = YES;
@@ -783,6 +800,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Diego.ContadorPassos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -795,8 +813,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ContadorPassos/ContadorPassos.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"ContadorPassos/Preview Content\"";
 				DEVELOPMENT_TEAM = SXY739TBJP;
 				ENABLE_PREVIEWS = YES;
@@ -814,6 +833,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Diego.ContadorPassos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -900,15 +920,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "ContadorPassosWatch WatchKit Extension/ContadorPassosWatch WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"ContadorPassosWatch WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = SXY739TBJP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ContadorPassosWatch WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "ContadorPassosWatch WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = ContadorPassosWatch_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Olá, queremos obter dados sobre números de passos dados.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -931,15 +953,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "ContadorPassosWatch WatchKit Extension/ContadorPassosWatch WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"ContadorPassosWatch WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = SXY739TBJP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ContadorPassosWatch WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "ContadorPassosWatch WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = ContadorPassosWatch_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Olá, queremos obter dados sobre números de passos dados.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -964,8 +988,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ContadorPassosWatch/ContadorPassosWatch.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = SXY739TBJP;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = ContadorPassosWatch_WatchKit_Extension;
@@ -975,6 +1001,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Diego.ContadorPassos.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -990,8 +1017,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ContadorPassosWatch/ContadorPassosWatch.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = SXY739TBJP;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = ContadorPassosWatch_WatchKit_Extension;
@@ -1001,6 +1030,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Diego.ContadorPassos.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1166,6 +1196,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		077F33BA28A1914B0023360F /* PassosModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PassosModule;
+		};
+		077F33BC28A1919C0023360F /* PassosModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PassosModule;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 07678B65289EFBBA007EDDCE /* Project object */;
 }
